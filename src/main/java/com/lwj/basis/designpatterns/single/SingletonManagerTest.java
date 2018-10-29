@@ -2,7 +2,8 @@ package com.lwj.basis.designpatterns.single;
 
 /**
  * 多运行几次，发现输出结果不是一致的
- * Created by lwj on 2018/10/29.
+ * @author 瓜牛呱呱
+ * @date 2018/10/29
  */
 public class SingletonManagerTest {
     public static void main(String[] args) {

@@ -5,7 +5,8 @@ import java.util.Map;
 
 /**
  * 使用容器实现单例模式 是线程不安全的
- * Created by lwj on 2018/10/29.
+ * @author 瓜牛呱呱
+ * @date 2018/10/29
  */
 public class SingletonManager {
     private static Map<String,String> objMap = new HashMap<String,String>();
