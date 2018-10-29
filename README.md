@@ -8,7 +8,7 @@
 缺点：扩展困难，单例的方法无法生成子类对象，要扩展的话基本要重写这个类。
 
 ## 二、原型模式
-原型模式可以理解为对 对象进行拷贝。
+原型模式可以理解为对 对象进行拷贝。[样例代码](https://github.com/linweijiang/DesignPatterns/tree/master/src/main/java/com/lwj/basis/designpatterns/prototype)
 
 分为两种拷贝：
 
