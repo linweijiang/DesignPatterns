@@ -72,6 +72,7 @@
 
 两个彼此间没有太大关联的类，想进行交互完成某些事情，如果直接去修改各自的接口，就显得有些繁琐了。
 可以加个中间类， 用它来协调两类之间的关系，完成相关业务。这种玩法就叫适配器模式！
+
 （来自：https://blog.csdn.net/coder_pig/article/details/54633682）
 
 #### 分类：
@@ -81,4 +82,5 @@
 我们通过一个例子来感受一下适配器模式，比如：
 
 如果它飞起来像只鸭子，叫起来像只鸭子，那么它必定（可能）是一只鸭子（包装了鸭子的适配器的火鸡）吗？
+
 [火鸡适配器代码](https://github.com/linweijiang/DesignPatterns/tree/master/src/main/java/com/lwj/basis/designpatterns/adaptor/AdaptorTest.java)
