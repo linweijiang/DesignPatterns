@@ -84,3 +84,16 @@
 如果它飞起来像只鸭子，叫起来像只鸭子，那么它必定（可能）是一只鸭子（包装了鸭子的适配器的火鸡）吗？
 
 [火鸡适配器代码](https://github.com/linweijiang/DesignPatterns/tree/master/src/main/java/com/lwj/basis/designpatterns/adaptor/AdaptorTest.java)
+
+## 六、装饰者模式
+
+定义：动态地将责任附加到对象上。
+
+比如在奶茶店中，有奶茶，椰果茶，同时还有红豆、珍珠等配料，那么菜单中应该如何列出来我的奶茶种类呢？
+是全部遍历出来然后显示在菜单中吗？这样菜单就太臃肿了。
+可以将茶的种类列出来，然后把配料的种类列出来，由用户自己去选择添加生产用户想要的奶茶。
+
+比如用户想要杯 红豆椰果珍珠奶茶，那么应该如何做给用户呢？
+可以先制作奶茶，然后往奶茶中添加珍珠，就变成珍珠奶茶，然后再添加椰果，变成椰果珍珠奶茶，再加入红豆，就变成 红豆椰果珍珠奶茶了。
+
+[奶茶制作代码](https://github.com/linweijiang/DesignPatterns/tree/master/src/main/java/com/lwj/basis/designpatterns/decorator/DecoratorTest.java)
