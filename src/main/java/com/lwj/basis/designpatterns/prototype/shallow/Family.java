@@ -1,4 +1,4 @@
-package com.lwj.basis.designpatterns.prototype;
+package com.lwj.basis.designpatterns.prototype.shallow;
 
 import com.alibaba.fastjson.JSONObject;
 
@@ -9,7 +9,7 @@ import java.io.*;
  * @author 瓜牛呱呱
  * @date 2018/10/29
  */
-public class Family implements Cloneable, Serializable{
+public class Family implements Cloneable{
     private Integer count;
     private Number number;
 
@@ -39,6 +39,10 @@ public class Family implements Cloneable, Serializable{
         return JSONObject.toJSONString(this);
     }
 
+    /**
+     * 重写clone方法
+     * @return
+     */
     @Override
     protected Object clone(){
         Family family = null;
@@ -47,21 +51,6 @@ public class Family implements Cloneable, Serializable{
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
-        return family;
-    }
-
-    /**
-     * 通过序列化进行 深拷贝
-     * @return
-     * @throws IOException
-     * @throws ClassNotFoundException
-     */
-    public Family deepClone() throws IOException, ClassNotFoundException {
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        ObjectOutputStream oos = new ObjectOutputStream(baos);
-        oos.writeObject(this);
-        ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
-        Family family = (Family)new ObjectInputStream(bais).readObject();
         return family;
     }
 }

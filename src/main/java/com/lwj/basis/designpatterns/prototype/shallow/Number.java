@@ -1,4 +1,4 @@
-package com.lwj.basis.designpatterns.prototype;
+package com.lwj.basis.designpatterns.prototype.shallow;
 
 import com.alibaba.fastjson.JSONObject;
 
@@ -9,7 +9,7 @@ import java.io.Serializable;
  * @author 瓜牛呱呱
  * @date 2018/10/29
  */
-public class Number implements Serializable{
+public class Number {
     private String name;
     Number(String name){
         System.out.println("Number构造器运行。。。");
