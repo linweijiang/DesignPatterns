@@ -96,4 +96,4 @@
 比如用户想要杯 红豆椰果珍珠奶茶，那么应该如何做给用户呢？
 可以先制作奶茶，然后往奶茶中添加珍珠，就变成珍珠奶茶，然后再添加椰果，变成椰果珍珠奶茶，再加入红豆，就变成 红豆椰果珍珠奶茶了。
 
-[奶茶制作代码](https://github.com/linweijiang/DesignPatterns/tree/master/src/main/java/com/lwj/basis/designpatterns/decorator/DecoratorTest.java)
+[奶茶制作代码](https://github.com/linweijiang/DesignPatterns/blob/master/src/main/java/com/lwj/basis/designpatterns/decorator/DecoretorTest.java)
