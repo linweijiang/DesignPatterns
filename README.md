@@ -80,4 +80,5 @@
 
 我们通过一个例子来感受一下适配器模式，比如：
 
-如果它飞起来像只鸭子，叫起来像只鸭子，那么它必定（可能）是一只鸭子（包装了鸭子的适配器的火鸡）吗？[火鸡适配器代码](https://github.com/linweijiang/DesignPatterns/tree/master/src/main/java/com/lwj/basis/designpatterns/adaptor/AdaptorTest.java)
+如果它飞起来像只鸭子，叫起来像只鸭子，那么它必定（可能）是一只鸭子（包装了鸭子的适配器的火鸡）吗？
+[火鸡适配器代码](https://github.com/linweijiang/DesignPatterns/tree/master/src/main/java/com/lwj/basis/designpatterns/adaptor/AdaptorTest.java)
