@@ -97,3 +97,8 @@
 可以先制作奶茶，然后往奶茶中添加珍珠，就变成珍珠奶茶，然后再添加椰果，变成椰果珍珠奶茶，再加入红豆，就变成 红豆椰果珍珠奶茶了。
 
 [奶茶制作代码](https://github.com/linweijiang/DesignPatterns/blob/master/src/main/java/com/lwj/basis/designpatterns/decorator/DecoretorTest.java)
+
+## 七、桥接模式
+
+定义：桥接模式基于单一职责原则，如果系统中的类存在多个变化的维度，通过该模式可以将这几个维度分离出来，然后进行独立扩展。这些分离开来的维度，通过在抽象层持有其他维度的引用来进行关联，就好像在两个维度间搭了桥一样，所以叫桥接模式。
+
